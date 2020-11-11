@@ -1,6 +1,6 @@
 # Chrome-Extention-Charts
 
-This extension can be used to Create dynamic charts by giving comma seperated inputs for X and Y Axis. Mostly helpul for Data visualization and Analytics. 
+***This extension can be used to Create dynamic charts by giving comma separated inputs for X and Y Axis. Mostly helpful for Data visualization and Analytics.***
 
 # How to use!
 1. download the Charts folder.
