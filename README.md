@@ -13,3 +13,9 @@
 # API Used:
 
 [Charts.js](https://www.chartjs.org/)
+
+# Other Similar Projects
+
+[Creating Charts using LWC in Salesforce](https://github.com/vimaltiwari2612/LWC-Charts.js)
+
+[Chome extension to get Salesforce's Meta data](https://github.com/vimaltiwari2612/SalesforceChromeExtension)
