@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <style>
+         input[type=text], select {
+			 width: 100%;
+			 padding: 12px 20px;
+			 margin: 8px 0;
+			 display: inline-block;
+			 border: 1px solid #ccc;
+			 border-radius: 4px;
+			 box-sizing: border-box;
+         }
+		 
+         input[type=button] {
+			 width: 100%;
+			 background-color: #4CAF50;
+			 color: white;
+			 padding: 14px 20px;
+			 margin: 8px 0;
+			 border: none;
+			 border-radius: 4px;
+			 cursor: pointer;
+         }
+		 
+         input[type=button]:hover {
+			background-color: #45a049;
+         }
+		 
+         div {
+			 border-radius: 5px;
+			 background-color: #f2f2f2;
+			 padding: 20px;
+         }
+		
+      </style>
+      <script src="Chart.min.js"></script>
+   </head>
+   <body>
+      <label>X-Axis (comma seperated)</label>
+      <input type="text" id="xaxis" placeholder="data 1, data 2, data 3, ...."><br>
+      <label>Y-Axis (comma seperated)</label>
+      <input type="text" id="yaxis" placeholder="data 1, data 2, data 3, ...."><br>
+      <label>Chart Type</label>
+      <select id="chartType">
+         <option value="bar">Bar</option>
+         <option value="pie">Pie</option>
+         <option value="line">Line</option>
+         <option value="polarArea">PolarArea</option>
+         <option value="radar">Radar</option>
+         <option value="bubble">Bubble</option>
+         <option value="doughnut">Doughnut</option>
+         <option value="scatter">Scatter</option>
+      </select>
+      <br>
+      <input type="button" id="btn" value="Create Chart"></input>
+      <br/>
+      <canvas id="myChart"></canvas>
+   </body>
+   <script src="popup.js"></script>
+</html>
